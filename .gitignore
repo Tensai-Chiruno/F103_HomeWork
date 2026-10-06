@@ -1,0 +1,28 @@
+# 构建产物
+build/
+cmake-build-*/
+
+# 编译中间文件
+*.o
+*.obj
+*.a
+*.elf
+*.hex
+*.bin
+*.map
+*.su
+*.d
+
+# 编辑器配置
+.vscode/
+
+# 系统文件
+Thumbs.db
+desktop.ini
+.DS_Store
+
+# Ozone 调试会话文件
+*.jdebug.user
+
+# 说明文档（交付物，不入库）
+*.docx
